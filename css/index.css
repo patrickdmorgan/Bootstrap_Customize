@@ -53,6 +53,8 @@ color: transparent; /* Hides the default text color */
 /* Navigation links */
 .customNav a {
   color: white !important;
+  background-color: #ff3300;
+  border-color: #ff3300;
 }
 .navCTA {
   font-size: 15px;
@@ -61,7 +63,9 @@ color: transparent; /* Hides the default text color */
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: #fff;
+  background-color: #ff3300;
+  border-color: #ff3300;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -76,14 +80,8 @@ color: transparent; /* Hides the default text color */
   border-radius: .25rem;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-.btn-primary {
-  color: #fff;
-  background-color: linear-gradient(180deg, #d7fd59, #feb47b);
-}
-.btn-primary {
-  color: #fff;
-  background-color: linear-gradient(180deg, #d7fd59, #feb47b);
-}
+
+
 .btn-group-lg>.btn, .btn-lg {
   padding: .5rem 1rem;
   font-size: 1.25rem;
@@ -92,8 +90,8 @@ color: transparent; /* Hides the default text color */
 }
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #ff3300;
+  border-color: #ff3300;
 }
 .btn {
   display: inline-block;
@@ -114,7 +112,7 @@ color: transparent; /* Hides the default text color */
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 a {
-  color: #007bff;
+  color: #ff9d00;
   text-decoration: none;
   background-color: transparent;
 }
